@@ -1,0 +1,19 @@
+install NodeJS from "https://nodejs.org/en"
+
+npm install -g pnpm
+pnpm setup
+
+pnpm install -g degit
+
+npx degit solidjs/templates/ts *project name*
+pnpm install
+
+pnpm install -D tailwindcss postcss autoprefixer
+npx tailwindcss init -p
+
+pnpm install solid-icons
+pnpm install -D @tailwindcss/forms
+
+find icons here: "https://solid-icons.vercel.app"
+
+pnpm i @solidjs/router
